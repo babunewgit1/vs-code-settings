@@ -1,7 +1,7 @@
 {
   // editor
-  "editor.fontSize": 20,
-  "editor.fontFamily": "Fira Code, Operator Mono",
+  "editor.fontSize": 22,
+  "editor.fontFamily": "Operator Mono",
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
@@ -39,14 +39,14 @@
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
-  "workbench.colorTheme": "Community Material Theme Darker High Contrast",
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Learn with Sumit - Shades of Grey",
+  "workbench.iconTheme": "material-icon-theme",
   // terminal customization
   "workbench.colorCustomizations": {
     "terminal.background": "#1D2021",
-    "terminal.foreground": "#A89984",
-    "terminalCursor.background": "#A89984",
-    "terminalCursor.foreground": "#A89984",
+    "terminal.foreground": "#00FF00",
+    "terminalCursor.background": "#FAC03B",
+    "terminalCursor.foreground": "#FAC03B",
     "terminal.ansiBlack": "#1D2021",
     "terminal.ansiBlue": "#0D6678",
     "terminal.ansiBrightBlack": "#665C54",
@@ -61,7 +61,15 @@
     "terminal.ansiGreen": "#95C085",
     "terminal.ansiMagenta": "#8F4673",
     "terminal.ansiRed": "#FB543F",
-    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiWhite": "#00FF00",
     "terminal.ansiYellow": "#FAC03B"
-  }
+  },
+  // emmet
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.startupEditor": "none",
+  "breadcrumbs.enabled": false
 }
